@@ -4,12 +4,12 @@ prices=[]
 total=0
 
 while True:
-    food=input("enter the food to buy and type q to (quit):")
+    food=input("enter the food to buy and type q to (quit):")  # user input is taken
     if food.lower() == "q":    # food.lower() is used because python is case sensitive
         break 
     
     else:
-     price=float(input(f"enter the price of  {food} :$"))
+     price=float(input(f"enter the price of  {food} :$"))       
      foods.append(food)
      prices.append(price)
 
